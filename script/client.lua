@@ -39,7 +39,6 @@ CLIENT = {
         end
     end,
     UseItem = function(key)
-        print(ESX.DumpTable(key))
         local playerPed = PlayerPedId()
         local coords = GetEntityCoords(playerPed)
         local MyRZ = RZ.UseItem[key]
